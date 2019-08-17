@@ -2,7 +2,7 @@
 
 import socket
 
-s = socket.socket()
+s = socket.socket(socket.Af_INET,socket.SOCK_STREAM)
 host = socket.gethostname()  #gets the current machine name
 port = 9999
 
